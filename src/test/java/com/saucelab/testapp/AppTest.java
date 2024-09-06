@@ -45,8 +45,7 @@ public class AppTest{
         else{
             throw new RuntimeException("Failed:Inventory Page was not found.");
         }
-        driver.close();
-        driver.quit();
+       driver.quit();
     }
 
 
